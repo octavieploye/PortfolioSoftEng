@@ -248,8 +248,10 @@ span.fade {
 }
 
 .download-cv-btn{
-    position: absolute;
-    /* bottom: 20px; */
+    position: relative;
+    bottom: 20px;
+    /* box-sizing: 20px 20px 45px 35px; */
+    
     top: 20px;
     left: 30%;
     transform: translateX(-50%);
@@ -261,15 +263,15 @@ span.fade {
     text-transform: capitalize;
     cursor: pointer;
     transition: .5s;
-    background: rgba(120, 162, 235, 0.5);
+    background: rgba(7, 43, 106, 0.5);
 }
 
 .download-cv-btn:hover{
-    background: rgb(52, 66, 145);
+    background: rgb(41, 65, 205);
 }
 
 .link-btn {
-    color: rgb(85, 46, 14);
+    color: rgb(155, 164, 232);
     opacity: 1;
     text-decoration: none;
     text-transform: capitalize;
