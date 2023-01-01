@@ -93,11 +93,11 @@ span.fade {
 }
 
 .home-img{
-    position: relative;
+    position: fixed;
     top: 0;
-    right: 0;
+    right: 35%;
     height: 100vh;
-    width: 60%;
+    width: 30%;
     object-fit: cover;
     opacity: 0.2;
 }
