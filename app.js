@@ -24,10 +24,13 @@
         }
     }
 
+    // * Reset Loop
     function complete() {
         clearInterval(timer);
         timer =null;
     }
+
+    // * Links transition
 
 const links = document.querySelectorAll('.link');
 const sections = document.querySelectorAll('section');
