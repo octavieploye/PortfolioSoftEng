@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 9;
-    background: #1a1a1a;
+    background: #3e3b3b;
 }
 
 .link-group{
@@ -48,6 +48,15 @@ body{
     opacity: 1;
 }
 
+
+
+.logo-oct {
+    text-decoration: none;
+    color: #686262;
+    font-size: 50px;
+    opacity: 1;
+}
+
 /* home */
 
 .home-section{
@@ -56,25 +65,39 @@ body{
     padding: 0 150px;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0;
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
 }
 
 .hero-heading{
-    color: #fff;
-    font-size: 120px;
+    position: relative;
+    right: 80px;
+    left: 50px;
+    color: rgb(79, 71, 71);
+    font-size: 100px;
     text-transform: capitalize;
-    font-weight: 300;
+    align-items: flex-start;
+    animation: forwards;
+    font-weight: 200;
+}
+
+span {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+span.fade {
+    opacity: 1; 
 }
 
 .home-img{
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     height: 100vh;
-    width: 50%;
+    width: 60%;
     object-fit: cover;
     opacity: 0.2;
 }
@@ -225,21 +248,37 @@ body{
 
 .download-cv-btn{
     position: absolute;
-    bottom: 20px;
-    left: 50%;
+    /* bottom: 20px; */
+    top: 20px;
+    left: 30%;
     transform: translateX(-50%);
     padding: 10px 20px;
     color: #fff;
     border: none;
-    font-size: 16px;
+    border-radius: 25px;
+    font-size: 10px;
     text-transform: capitalize;
     cursor: pointer;
     transition: .5s;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(120, 162, 235, 0.5);
 }
 
 .download-cv-btn:hover{
-    background: #000;
+    background: rgb(52, 66, 145);
+}
+
+.link-btn {
+    color: rgb(85, 46, 14);
+    opacity: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    color:aliceblue;
 }
 
 /** RESUME TIMELINE  */
@@ -250,10 +289,10 @@ body{
     margin: 150px auto;
 }
 .heading {
-    color: aliceblue;
+    color: rgb(241, 223, 141);
     font-size: 80px;
     text-align: center;
-    text-shadow: #4fa0ff;
+    text-shadow: #e7cb71;
 }
 
 .timeline .heading{
@@ -268,7 +307,7 @@ body{
     display: block;
     margin: -80px 0;
     position: relative;
-    background: #f00;
+    background: rgb(231, 140, 140);
 }
 
 .card:nth-child(even){
@@ -324,16 +363,16 @@ body{
 }
 
 .card:nth-child(2), .card:nth-child(2):before{
-    background: #ff4f4f;
+    background: #e99e9e;
 }
 .card:nth-child(3), .card:nth-child(3):before{
-    background: #ffb84f;
+    background: #ebca9a;
 }
 .card:nth-child(4), .card:nth-child(4):before{
-    background: #3dca5c;
+    background: #a2e8b1;
 }
 .card:nth-child(5), .card:nth-child(5):before{
-    background: #565252;
+    background: #b47262;
 }
 .card:nth-child(6), .card:nth-child(6):before{
     background: #4fa0ff;
