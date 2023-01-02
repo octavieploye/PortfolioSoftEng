@@ -250,24 +250,27 @@ span.fade {
 .download-cv-btn{
     position: relative;
     bottom: 20px;
-    /* box-sizing: 20px 20px 45px 35px; */
+    
     
     top: 20px;
-    left: 30%;
+    left: 25%;
     transform: translateX(-50%);
     padding: 10px 20px;
     color: #fff;
-    border: none;
-    border-radius: 25px;
+    
+    border: solid rgb(69, 165, 229);
+    
+    
     font-size: 10px;
     text-transform: capitalize;
     cursor: pointer;
-    transition: .5s;
-    background: rgba(7, 43, 106, 0.5);
+    transition: .2s;
+    background: #191919;
+    
 }
 
 .download-cv-btn:hover{
-    background: rgb(41, 65, 205);
+    background: rgb(19, 35, 33);
 }
 
 .link-btn {
@@ -276,12 +279,12 @@ span.fade {
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
-    transition: .5s;
+    transition: .2  s;
     cursor: pointer;
 }
 
 .link-btn:hover {
-    color:aliceblue;
+    color:rgb(90, 153, 215);
 }
 
 /** RESUME TIMELINE  */
@@ -396,3 +399,39 @@ span.fade {
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
+}
+
+/* *MY BLOG SECTION */
+
+.myblog-container {
+    position: absolute;
+    display: flex;
+    height:fit-content; 
+    top: 20%;
+    width:fit-content;
+    background-color: #a28a83;
+    border-radius: 15px;
+    box-sizing: content-box;
+}
+
+.myblog {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    height: 30%;
+    color: #ebd590;
+    font-size: 40px;
+}
+
+.myblog-card-container {
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    background-color:#e99e9e;
+    border-radius: 15px;
+}
+.myblog-card-title {
+padding: 15px;
+margin: 5px;
+}
