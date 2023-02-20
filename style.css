@@ -279,7 +279,7 @@ span.fade {
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
-    transition: .2  s;
+    transition: .2s;
     cursor: pointer;
 }
 
@@ -412,6 +412,7 @@ span.fade {
     background-color: #a28a83;
     border-radius: 15px;
     box-sizing: content-box;
+    padding: 15px;
 }
 
 .myblog {
@@ -428,8 +429,16 @@ span.fade {
     padding: 15px;
     margin: 10px;
     display: block;
-    background-color:#e99e9e;
+    background-color: #f6ebeb;
     border-radius: 15px;
+    transition: transform 2s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.myblog-card-container:hover {
+    background-color: #a2e8b1;
+    transform: scale(1.2);
+    z-index: 1;
 }
 .myblog-card-title {
 padding: 15px;
