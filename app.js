@@ -2,33 +2,34 @@
  // **typing text animation script
 
 
-    const text = document.querySelector('.hero-heading');
-    const strText = text.textContent;
-    const splitText = strText.split("");
-    text.textContent = "";
+     const text = document.querySelector('.hero-heading');
+     const strText = text.textContent;
+     const splitText = strText.split("");
+     text.textContent = "";
 
-    for(i=0; i < splitText.length; i++) {
-        text.innerHTML += "<span>" + splitText[i] + "</span>"
-    }
+     for (i = 0; i < splitText.length; i++) {
+         text.innerHTML += "<span>" + splitText[i] + "</span>"
+     }
 
-    let char = 0;
-    let timer = setInterval(onTick, 50);
+     let char = 0;
+     let timer = setInterval(onTick, 50);
 
-    function onTick() {
-        const span = text.querySelectorAll('span') [char];
-        span.classList.add('fade');
-        char++;
-        if(char === splitText.length){
-            complete();
-            return;
-        }
-    }
+     function onTick() {
+         const span = text.querySelectorAll('span') [char];
+         span.classList.add('fade');
+         char++;
+         if (char === splitText.length) {
+             complete();
+             return;
+         }
+     }
 
-    // * Reset Loop
-    function complete() {
-        clearInterval(timer);
-        timer =null;
-    }
+     // * Reset Loop
+     function complete() {
+         clearInterval(timer);
+         timer = null;
+     }
+
 
     // * Links transition
 
