@@ -29,6 +29,21 @@ body{
     padding: 0 100px;
     transition: .5s;
 }
+
+@media screen and (max-width: 900px){
+    .link-group{
+        position:fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2em;
+        background: hsl(0, 0%, 100%,0.1);
+        backdrop-filter: blur(5rem);
+
+    }
+    .profile-container{
+        visibility: hidden;
+    }
+}
 /*LOGO*/
 .img-logo {
     margin-right: auto;
@@ -46,6 +61,8 @@ body{
 .link-group{
     list-style: none;
     display: flex;
+    background: hsl(0, 0%, 100%,0.1);
+    backdrop-filter: blur(1rem);
 }
 
 .link a{
