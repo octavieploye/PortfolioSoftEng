@@ -22,14 +22,13 @@ html,body{
     z-index: 9;
     /*background: #e3e3ea;*/
     flex-wrap: wrap;
-    /*align-content: stretch;*/
-    /*justify-content: flex-start;*/
-    /*align-items: stretch;*/
+
 }
 
-.header-container{
+.header-media-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row
+    list-style-type: none;
     flex-wrap: wrap;
     margin-top: 15px;
     margin-left: 120px;
@@ -39,15 +38,21 @@ html,body{
     border-radius: 15px;
 
 }
-
-
-.header-media-item {
+.header-media-container li {
     display: flex;
-    list-style: none;
-    /*margin-left: 20px;*/
-    /*margin-top: 15px;*/
+    list-style-type: none;
+    margin: 10px;
+
     /*background: #e3e3ea;*/
-    gap: 40px;
+
+}
+.header-media-container li > a {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background: #e3e3ea;*/
     flex-direction: row;
     align-content: center;
     justify-content: flex-end;
@@ -55,14 +60,13 @@ html,body{
     flex-wrap: wrap;
     z-index: 10;
 }
-.linkedin{
+
+
+.media-link{
     /*background: #e7cb71;*/
     z-index: 9999;
 }
-.git {
-    /*background: red;*/
-    z-index: 9999;
-}
+
 
 
 /* NAVBAR */
