@@ -19,67 +19,21 @@ html,body{
     flex-direction: row;
     width: 100%;
     display: flex;
-    z-index: 9;
+    /*z-index: 9;*/
     /*background: #e3e3ea;*/
     flex-wrap: wrap;
 
 }
-
-.header-media-container{
-    display: flex;
-    flex-direction: row
-    list-style-type: none;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-left: 120px;
-    /*background: deepskyblue;*/
-    background: hsl(0, 0%, 100%,0.2);
-    backdrop-filter: blur(5rem);
-    border-radius: 15px;
-
-}
-.header-media-container li {
-    display: flex;
-    list-style-type: none;
-    margin: 10px;
-
-    /*background: #e3e3ea;*/
-
-}
-.header-media-container li > a {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /*background: #e3e3ea;*/
-    flex-direction: row;
-    align-content: center;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    z-index: 10;
-}
-
-
-.media-link{
-    /*background: #e7cb71;*/
-    z-index: 9999;
-}
-
 
 
 /* NAVBAR */
 .navbar {
     width: 100%;
-    /*height: 25px;*/
-    /*padding: 15px;*/
     position: fixed;
-     /*z-index: 10;*/
+     z-index: 1002;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*padding: 0 100px;*/
     transition: .5s;
 }
 
@@ -272,26 +226,90 @@ span.fade {
     opacity: 1; 
 }
 
-/*.home-img{*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    right: 35%;*/
-/*    height: 100vh;*/
-/*    width: 30%;*/
-/*    object-fit: cover;*/
-/*    opacity: 0.5;*/
-/*}*/
-
 
 .section-container {
-display: flex;
+  display: flex;
+    width: 1200px;
+    height: 500px;
   /*background: white;*/
-    margin-top: 50px;
     margin-left: 50px;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: baseline;
 
 }
 
+/**WELCOME SECTION================*/
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+
+    /*background: #de0909;*/
+}
+
+.welcome-media-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:100px;
+    padding: 50px;
+    /*background: #72dc59;*/
+}
+
+.media-container{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 200px;
+   margin-bottom: 50px;
+    /*background: deepskyblue;*/
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 100%,0.2);
+    backdrop-filter: blur(5rem);
+    border-radius: 15px;
+
+}
+.media-container li {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+
+    /*background: #e3e3ea;*/
+
+}
+.media-container li > a {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background: #e3e3ea;*/
+    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+.media-link{
+    /*background: #e7cb71;*/
+    z-index: 9999;
+}
+
+
+
+/*profile-developer section=================================*/
 .profile-container {
     position: relative;
     display: flex;
@@ -300,7 +318,7 @@ display: flex;
     height: 400px;
     margin-right: 50px;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-top: 50px;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(119, 62, 126),
                 5px 10px 10px rgb(223, 80, 236);
@@ -316,12 +334,6 @@ display: flex;
     /*background: red;*/
 }
 
-.welcome-container {
-    position: absolute;
-    /*background: green;*/
-    margin-left: 500px;
-    margin-top: 202px;
-}
 
 .dev {
     margin: 25px;
@@ -337,7 +349,7 @@ display: flex;
 
 
 
-/* * SMOOTH NAVIGATION */
+/* * SMOOTH NAVIGATION =======================================*/
 .blog-section,active,
 .home-section.active,
 .project-section.active,
@@ -347,7 +359,7 @@ display: flex;
     opacity: 1;
     z-index: 8;
 }
-
+/**=================================================*/
 /** PROJECT-SECTION */
 
 .project-section{
@@ -432,7 +444,7 @@ display: flex;
     opacity: 1;
 }
 
-/** ABOUT-SECTION */
+/** ABOUT-SECTION============================================ */
 
 .about-section{
     width: 100%;
@@ -743,7 +755,7 @@ margin: 5px;
     height: 50px;
     /*background-color: #24395e;*/
     opacity: 1;
-
+    z-index: 1003;
 
 
 }
