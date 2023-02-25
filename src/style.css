@@ -350,7 +350,7 @@ span.fade {
 
 
 /* * SMOOTH NAVIGATION =======================================*/
-.blog-section,active,
+.blog-section.active,
 .home-section.active,
 .project-section.active,
 .about-section.active,
@@ -677,7 +677,7 @@ span.fade {
     text-align: center;
     height: 30%;
     color: #ebd590;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .myblog-card-container {
@@ -697,17 +697,27 @@ span.fade {
     transform: scale(1.2);
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
     z-index: 1;
 }
 
 
 .myblog-card-title {
-padding: 15px;
+padding: 10px;
 margin: 5px;
 }
 
-/*programme language*/
+.myblog-title {
+    font-family: 'Tilt Prism', cursive;
+}
+
+.myblog-paragraghe {
+    letter-spacing: normal;
+    font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+
+}
+
+/*programme language index.html ===========================*/
 
 .section-programming{
     position: relative;
