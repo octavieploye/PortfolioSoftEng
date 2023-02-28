@@ -12,7 +12,7 @@
      }
 
      let char = 0;
-     let timer = setInterval(onTick, 50);
+     let timer = setInterval(onTick, 30);
 
      function onTick() {
          const span = text.querySelectorAll('span') [char];
