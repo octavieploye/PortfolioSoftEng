@@ -716,14 +716,16 @@ html,body{
     /*programme language index.html ===========================*/
     .section-programming {
         position: relative;
+        max-width: inherit;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-end;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: flex-end;
         left: 4em;
         top: -33em;
+        z-index: -1;
 
         /*width: 100%;*/
         /*height: 80px;*/
