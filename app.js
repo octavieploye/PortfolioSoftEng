@@ -1,5 +1,5 @@
 
- // **typing text animation script
+ // **Hello typing text animation script
 
 
 
@@ -13,7 +13,7 @@
      }
 
      let char = 0;
-     let timer = setInterval(onTick, 30);
+     let timer = setInterval(onTick, 50);
 
      function onTick() {
          const span = text.querySelectorAll('span') [char];
