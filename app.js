@@ -2,6 +2,7 @@
  // **typing text animation script
 
 
+
      const text = document.querySelector('.hero-heading');
      const strText = text.textContent;
      const splitText = strText.split("");
@@ -29,6 +30,7 @@
          clearInterval(timer);
          timer = null;
      }
+
 
 
     // * Links transition
