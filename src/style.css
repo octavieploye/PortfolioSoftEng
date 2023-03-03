@@ -1075,7 +1075,7 @@ html,body{
     width: 6px;
     border-radius: 3px;
     background: #72dc59;
-    z-index: 2000;
+    /*z-index: 2000;*/
 }
 
 @media screen and (max-width: 1300px) {
