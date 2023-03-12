@@ -43,6 +43,36 @@ html,body{
     transition: .5s;
 }
 
+.nav-background-color {
+    background-color: #3550d5 !important;
+    border-bottom: 5px solid purple;
+    transition:0.2s;
+}
+
+.link-group {
+    list-style: none;
+    margin-right: 30px;
+    display: flex;
+    /*background: hsl(0, 0%, 100%,0.1);*/
+    /*backdrop-filter: blur(1rem);*/
+}
+
+.link a {
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a {
+    opacity: 1;
+}
+
 /*LOGO*/
 .img-logo {
     /*margin-right: auto;*/
@@ -164,29 +194,7 @@ html,body{
 
 
 
-    .link-group {
-        list-style: none;
-        margin-right: 30px;
-        display: flex;
-        /*background: hsl(0, 0%, 100%,0.1);*/
-        /*backdrop-filter: blur(1rem);*/
-    }
 
-    .link a {
-        color: #fff;
-        opacity: 0.5;
-        text-decoration: none;
-        text-transform: capitalize;
-        padding: 10px 30px;
-        margin: 0 20px;
-        line-height: 80px;
-        transition: .5s;
-        font-size: 20px;
-    }
-
-    .link a:hover, .link.active a {
-        opacity: 1;
-    }
 
 
 

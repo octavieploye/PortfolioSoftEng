@@ -1,6 +1,6 @@
 
- // **Hello typing text animation script
 
+// **Hello typing text animation script
 
 
      const text = document.querySelector('.hero-heading');
@@ -55,4 +55,18 @@ links.forEach((link, i) => {
     })
 })
 
+// navbar on scroll
+// function navOnScroll() {
+//     const navbar = document.getElementById('navbar-on-scroll');
+//     const scrollValue = window.scrollY;
+//     console.log(scrollValue)
+//
+//     if (scrollValue < 150) {
+//         navbar.classList.remove('nav-background-color')
+//     } else {
+//         navbar.classList.add('nav-background-color')
+//     }
+//
+// }
+// window.addEventListener('scroll', navOnScroll)
 
