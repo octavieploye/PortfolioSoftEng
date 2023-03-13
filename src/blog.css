@@ -127,8 +127,13 @@ html,body{
 }
 
 .blog-card-img {
-    width: 400px;
+    width: 200px;
     height: 250px;
+    /* background-color: aqua; */
+}
+.blog-card-img img {
+    width: 400px;
+    height: 200px;
     /* background-color: aqua; */
 }
 
