@@ -13,8 +13,8 @@ html,body{
     background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
     font-family: sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
 
 }
 
@@ -43,8 +43,8 @@ html,body{
 }
 
 .nav-background-color {
-    background-color: #3550d5 !important;
-    border-bottom: 5px solid purple;
+    background-color: #3f455f !important;
+    border-bottom: 5px solid rgb(224, 170, 224);
     transition:0.2s;
 }
 
@@ -190,13 +190,6 @@ html,body{
     opacity: 0.5;
 }
 
-
-
-
-
-
-
-
     .hero-heading {
 
         text-transform: full-width;
@@ -231,7 +224,7 @@ html,body{
         background-clip: text;
         text-fill-color:transparent;
         -webkit-background-clip: text;
-        -moz-background-clip: text;
+        /*-moz-background-clip: text;*/
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
         animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
@@ -255,7 +248,7 @@ html,body{
         background-clip: text;
         text-fill-color:transparent;
         -webkit-background-clip: text;
-        -moz-background-clip: text;
+        /*-moz-background-clip: text;*/
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
         animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
@@ -503,6 +496,12 @@ html,body{
         opacity: 0.6;
         font-size: 20px;
         line-height: 40px;
+        border: 2px solid #fff;
+        border-radius: 15px;
+        width: 75%;
+        height: 65%;
+        padding: 2rem;
+        margin: 5rem;
     }
 
     .about-img {
@@ -689,92 +688,165 @@ html,body{
         margin-bottom: 20px;
     }
 
-    /* *MY BLOG SECTION */
-    .blog-section {
+    /*************MY BLOG SECTION *************/
+    /* .blog-section {
         display: flex;
         height: 35rem;
-        /*background-color: #d0d5de;*/
-        flex-direction: column;
+        /* background-color: #d0d5de; */
+        /* flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 10rem;
-        transition: 1s ease-in-out;
-    }
-
-    .myblog-container {
+        transition: 1s ease-in-out; */
+    /* } */
+/* 
+    /* .myblog-container {
         display: flex;
         height: fit-content;
         width: fit-content;
-        background-color: #24395e;
-        border-radius: 15px;
+        /* background-color: #24395e; */
+        /* border-radius: 15px; */
         /*box-sizing: content-box;*/
-        padding: 15px;
+        /* padding: 15px;
         margin-left: 15px;
-        margin-right: 15px;
-    }
+        margin-right: 15px; */
+    /* } */ 
 
-    .myblog {
-        position: relative;
-        padding: 10px;
-        text-align: center;
-        height: 30%;
-        color: #ebd590;
-        font-size: 20px;
-    }
+/* READ MORE READ LESS */
 
-    .myblog-card-container {
+
+    /* .myblog-card-container {
         position: relative;
         padding: 15px;
         margin: 10px;
         display: block;
-        /*background-color: #D9AFD9;*/
+        width: 301px;
+        height: 479px; */
+        /* background-color: #D9AFD9;
         background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
         border-radius: 15px;
-        transition: transform 2s;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    }
+        transition: transform 2s; */
+        /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    /* } */
 
-    .myblog-card-container:hover {
-        /*background: #1919e3;*/
-        transform: scale(1.2);
-        background-color: #85FFBD;
-        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-        z-index: 1;
-    }
+    /* .expandMoreContent {
+        overflow: hidden;
+        transition: height 0.5s ease-in-out;
+        position: relative;
+        /* background: #00DBDE; */
+    /* }
+    .expandMoreContent.expand-active {
+        height: auto;
+        transition: height 0.5s ease-in-out;
+    } */ 
+    /* .expandMoreHolder {
+        text-align: center;
+        position: relative;
+        padding: 10px 15px;
+        margin: 4rem;
+        background: transparent; */
+        /* background: linear-gradient(lightpink,lightblue,lightyellow);
+             color: #6497c6; */
+             /* width: 150px;
+             display: inline-block;
+             font-weight: 500;
+             letter-spacing: 2px;
+             font-size: 14px;
+             border-radius: 53px;
+             border: 2px solid white; */
+             /* cursor: pointer; */
+             /* transition: all 0.5s ease-out; */
+    /* } */
+
+    /* .expandMoreHolder:hover {
+        min-width: 30px;
+        max-width: 150px;
+        background: linear-gradient(rgb(230, 130, 145),rgb(196, 161, 161),rgb(229, 229, 106));
+        color: #bce77b;
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .1);
+        border-radius: 50%;
+    } */
+
+    /* .btn-expand-more {
+        display: inline-block;
+        padding: 10px 15px;
+        width: 130px;
+        color: #000;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 14px;
+        border-radius: 53px;
+        border: 2px solid rgb(20, 16, 16);
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+         */
+    /* } */
+
+/* 
+    .myblog-card-container .more{
+   position: relative;
+   padding: 10px 15px;
+   margin: 4rem;
+   background: linear-gradient(lightpink,lightblue,lightyellow);
+        color: #6497c6;
+        width: 130px;
+        display: inline-block;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 14px;
+        border-radius: 53px;
+        border: 2px solid white;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+        
+    } */
 
 
-    .myblog-card-title {
-        padding: 10px;
-        margin: 5px;
-    }
+/* 
+    .myblog-card-container a:hover {
+        min-width: 30px;
+        max-width: 150px;
+        background: linear-gradient(rgb(230, 130, 145),rgb(196, 161, 161),rgb(229, 229, 106));
+        color: #bce77b;
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .1);
+        border-radius: 50%;
+        
+    } */
 
-    .myblog-title {
-        font-family: 'Tilt Prism', cursive;
-    }
-
-    .myblog-paragraghe {
+    /* .myblog-paragraghe {
+        position: relative;
         letter-spacing: normal;
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-
+        font-size: 10px; */
+        /* background: yellow; */
+        /* overflow: hidden; */
+    /* } */
+    /* .myblog-paragraghe::before {
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+        border-radius: 8px;
+        background: linear-gradient(transparent, #ab86a1);
     }
+
+    .myblog-card-container.active .myblog-paragraghe::before {
+        display: none;
+    } */
+/* ////////////////////////END//////////////////// */
+
+
+
+  
 
     /*programme language index.html ===========================*/
     .section-programming {
         width: fit-content;
-        /*position: relative;*/
-        /*max-width: inherit;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*flex-wrap: wrap;*/
-        /*align-content: flex-end;*/
-        /*justify-content: space-evenly;*/
-        /*align-items: flex-end;*/
-        /*left: 4em;*/
-        /*top: -33em;*/
-        /*z-index: -1;*/
+      
 
     }
 
@@ -1023,7 +1095,7 @@ html,body{
 
     }
 
-    /*FOOTER=======================================*/
+    /*=======FOOTER=======================================*/
     .footer {
         display: flex;
         position: fixed;
@@ -1108,16 +1180,16 @@ html,body{
     }
 /*===============TRAIL ANIMATION=========    */
 
-.trail {
+/* .trail {
     position: absolute;
     height: 16px;
     width: 16px;
     border-radius: 3px;
     background: linear-gradient(45deg, #da05f5 30%, #85FFBD 0%, #0d0a67 100%);
     /*z-index: 2000;*/
-}
+/* } */
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) { */
     /*.link-group{*/
     /*    position:fixed;*/
     /*    inset: 0 0 0 70%;*/
