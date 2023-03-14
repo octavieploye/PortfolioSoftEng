@@ -120,7 +120,7 @@ html,body{
 
 }
 
-.blog-card.active .expandMoreContent::before::before {
+.blog-card.active .expandMoreContent::before {
     display: none;
 } 
 
@@ -157,7 +157,7 @@ html,body{
 
 
 .expandMoreContent {
-    height: 76px;
+    height: 79px;
     overflow: hidden;
     position: relative;
     transition: all 2s ease-in;   
